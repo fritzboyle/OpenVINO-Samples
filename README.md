@@ -3,7 +3,7 @@ This is a list of samples to run on different hardware.<br>
 
 CPU requires FP32 or int8 models.  All other hardware requires FP16 models, though GPU can run non-optimally with FP32 models in some cases.
 
-To prepare for the exercize, we're going to convert an FP32 SqueezeNet 1.1 model (provided with OpenVINO) to an FP16 version.
+To prepare for the exercise, we're going to convert an FP32 SqueezeNet 1.1 model (provided with OpenVINO) to an FP16 version.
 
 
 <h3>Run a Sample Application</h3>
