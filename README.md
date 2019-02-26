@@ -10,7 +10,7 @@ list of samples to run on different hardware
 		<pre class="brush:bash; class-name:dark;">cd ~/squeezenet1.1_FP16</pre>
 	</li>
 	<li>Use the Model Optimizer to convert a model to FP16
-		<pre>python3 /opt/intel/openvino/deployment_tools/model_optimizer/mo.py --input_model ~/openvino_models/FP32/classification/squeezenet/1.1/caffe/squeezenet1.1.caffemodel --data_type FP16 --output_dir .</pre>
+		<pre>python3 /opt/intel/openvino/deployment_tools/model_optimizer/mo.py --input_model ~/openvino_models/models/FP32/classification/squeezenet/1.1/caffe/squeezenet1.1.caffemodel --data_type FP16 --output_dir .</pre>
 	</li>
 	<li> Copy the labels file to the directory with the new FP16 SqueezeNet model.
 		<pre>cp ~/openvino_models/ir/squeezenet1.1/FP32/squeezenet1.1.labels .</pre>
