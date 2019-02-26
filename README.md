@@ -1,5 +1,9 @@
 # OpenVINO-Samples
-list of samples to run on different hardware
+This is a list of samples to run on different hardware.<br>
+
+CPU requires FP32 or int8 models.  All other hardware requires FP16 models, though GPU can run non-optimally with FP32 models in some cases.
+
+
 <h3>Run a Sample Application</h3>
 
 <ol>
