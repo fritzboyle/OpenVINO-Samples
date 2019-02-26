@@ -13,10 +13,10 @@ list of samples to run on different hardware
 		<pre>python3 /opt/intel/openvino/deployment_tools/model_optimizer/mo.py --input_model ~/openvino_models/models/FP32/classification/squeezenet/1.1/caffe/squeezenet1.1.caffemodel --data_type FP16 --output_dir .</pre>
 	</li>
 	<li> Copy the labels file to the directory with the new FP16 SqueezeNet model.
-		<pre>cp ~/openvino_models/ir/squeezenet1.1/FP32/squeezenet1.1.labels .</pre>
+		<pre>cp ~/openvino_models/ir/FP32/classification/squeezenet/1.1/caffe/squeezenet1.1.labels .</pre>
 	</li>
 	<li> Copy the car image to the samples directory for ease of use.
-		<pre>sudo cp /opt/intel/computer_vision_sdk/deployment_tools/demo/car.png  ~/inference_engine_samples/intel64/Release</pre>
+		<pre>sudo cp /opt/intel/openvino/deployment_tools/demo/car.png  ~/inference_engine_samples/intel64/Release</pre>
 	</li>
 	<li>Go to the samples directory:
 		<pre class="brush:bash; class-name:dark;">cd ~/inference_engine_samples/intel64/Release</pre>
